@@ -27,6 +27,7 @@ import avatars from './avatar';
      onSelectedAvatar(avatar) {
          this.setState({
              activeAvatar: avatar,
+             popoverOpen: !this.state.popoverOpen
          });
          console.log(this.state.activeAvatar)
      }
@@ -35,21 +36,23 @@ import avatars from './avatar';
     render() {
 
         return (
-            <div>
-                <a id="Popover1" onClick={this.toggle}>
+            <div className="avatar-container">
+                <a id="Popover" onClick={this.toggle}>
                     <img className="circle" src={require(`./assets/${this.state.activeAvatar.src}`)} />
                 </a>
-                <Popover placement="bottom" isOpen={this.state.popoverOpen} target="Popover1" toggle={this.toggle}>
-                    <PopoverHeader>Choose your avatar</PopoverHeader>
+
+                <Popover placement="bottom" isOpen={this.state.popoverOpen} target="Popover" toggle={this.toggle}>
+                    <PopoverHeader className="pop-header">Choose your avatar</PopoverHeader>
                     <PopoverBody>
                         <ul>
                             {avatars.map(avatar => <img key={avatar.id} src={require(`./assets/${avatar.src}`)}
                                                         className="circle"
-                                                        onClick={this.onSelectedAvatar.bind(this)}   />)}
+                                                        onClick={this.onSelectedAvatar.bind(this,avatar)} />)}
 
                         </ul>
                     </PopoverBody>
                 </Popover>
+
             </div>
         );
     }

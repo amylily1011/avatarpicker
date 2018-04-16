@@ -9,9 +9,25 @@
     border: 1px solid rgb(155, 160, 163);
 }
 
+.avatar-container {
+    padding: 15px;
+}
 
 .circle-list {
     padding: 10px;
 }
 
+.pop-header {
+    text-align: center;
+    color: rgb(249, 249, 249);
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
 
+.bs-popover-bottom{
+    background-color: rgb(44, 48, 51);
+    padding: 14px;
+    width: 300px;
+    border-radius: 3px;
+}
