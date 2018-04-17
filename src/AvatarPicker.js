@@ -32,19 +32,24 @@ import avatars from './avatar';
          console.log(this.state.activeAvatar)
      }
 
+     sendToProfileAPI(){
+         // this function is supposed to send the selected avatar to the
+         //API endpoint where it should store the updated value of this selected avatar
+     }
+
 
     render() {
 
         return (
             <div className="avatar-container">
                 <a id="Popover" onClick={this.toggle}>
-                    <img className="circle" src={require(`./assets/${this.state.activeAvatar.src}`)} />
+                    <img className="circle main-avatar" src={require(`./assets/${this.state.activeAvatar.src}`)} />
                 </a>
 
                 <Popover placement="bottom" isOpen={this.state.popoverOpen} target="Popover" toggle={this.toggle}>
                     <PopoverHeader className="pop-header">Choose your avatar</PopoverHeader>
                     <PopoverBody>
-                        <ul>
+                        <ul className="popover-space">
                             {avatars.map(avatar => <img key={avatar.id} src={require(`./assets/${avatar.src}`)}
                                                         className="circle"
                                                         onClick={this.onSelectedAvatar.bind(this,avatar)} />)}

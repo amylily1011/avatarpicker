@@ -13,6 +13,10 @@
     padding: 15px;
 }
 
+.main-avatar {
+
+}
+
 .circle-list {
     padding: 10px;
 }
@@ -30,4 +34,8 @@
     padding: 14px;
     width: 300px;
     border-radius: 3px;
+}
+
+.popover-space {
+    margin: 0;
 }
