@@ -13,7 +13,7 @@ import avatars from './avatar';
          this.state = {
              popoverOpen: false,
              activeAvatar: avatars[0],
-             avatarTemp: {}
+             avatarTemp: {},
          };
      }
 
@@ -43,6 +43,8 @@ import avatars from './avatar';
 
 
     render() {
+        const classLoading = this.state.activeAvatar.isLoading ? 'spinner' : '';
+        const classAvatarLoading = `circle ${ classLoading }`;
 
         return (
             <div className="avatar-container">
@@ -54,10 +56,9 @@ import avatars from './avatar';
                     <PopoverHeader className="pop-header">Choose your avatar</PopoverHeader>
                     <PopoverBody>
                         <ul className="popover-space">
-                            {avatars.map(avatar => <img key={avatar.id} src={require(`./assets/${avatar.src}`)}
-                                                        className="circle"
+                            {avatars.map(avatar => <img alt={avatar.label} key={avatar.id} src={require(`./assets/${avatar.src}`)}
+                                                        className={classAvatarLoading}
                                                         onClick={this.onSelectedAvatar.bind(this,avatar)} />)}
-
                         </ul>
                     </PopoverBody>
                 </Popover>
