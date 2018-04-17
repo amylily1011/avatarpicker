@@ -1,10 +1,9 @@
 FROM node:9.11.1
 ENV NPM_CONFIG_LOGLEVEL warn
-#COPY . .
-COPY package.json package.json
-COPY npm-shrinkwrap.json npm-shrinkwrap.json
+ENV PORT 5000
+COPY . .
 RUN npm install
 RUN npm run build --production
 RUN npm install -g serve
-CMD serve -s build
-EXPOSE 5000
+CMD PORT=$PORT serve -s build
+EXPOSE 50000

@@ -9,6 +9,16 @@ This demo was created from boilerplate: https://github.com/facebook/create-react
 
 To run this project:
 
-`npm install`        // To install all dependencies
+```
+npm install # Install all node dependencies
+npm start   # Start the HTTP server at http://localhost:5000
+```
 
-`npm start`          // This will start the browser with port:3000
+### Using docker
+
+Build and run the image to expose the application at http://localhost:5000
+
+```
+docker build -t avatar-picker . # Build container
+docker run avatar-picker:latest # Run container
+```

@@ -25,16 +25,20 @@ import avatars from './avatar';
      }
 
      onSelectedAvatar(avatar) {
+         avatar.isLoading = true;
          this.setState({
              activeAvatar: avatar,
-             popoverOpen: !this.state.popoverOpen
          });
          console.log(this.state.activeAvatar)
-     }
 
-     sendToProfileAPI(){
-         // this function is supposed to send the selected avatar to the
-         //API endpoint where it should store the updated value of this selected avatar
+         setTimeout(() => {
+             //This part is supposed to imitate the API post request.
+             avatar.isLoading = false;
+             this.setState({
+                 activeAvatar: avatar,
+                 popoverOpen: false,
+             });
+         }, 1000);
      }
 
 
