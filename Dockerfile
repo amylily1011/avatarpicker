@@ -6,4 +6,4 @@ RUN npm install
 RUN npm run build --production
 RUN npm install -g serve
 CMD PORT=$PORT serve -s build
-EXPOSE 50000
+EXPOSE 5000
