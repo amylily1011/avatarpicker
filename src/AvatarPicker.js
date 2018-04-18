@@ -1,5 +1,4 @@
 import React from "react";
-import { render } from "react-dom";
 import "./AvatarPicker.css";
 import { Popover, PopoverHeader, PopoverBody } from 'reactstrap';
 import avatars from './avatar';
@@ -16,7 +15,6 @@ import avatars from './avatar';
              avatarTemp: {},
          };
      }
-
 
      toggle() {
          this.setState({
@@ -48,17 +46,17 @@ import avatars from './avatar';
 
         return (
             <div className="avatar-container">
-                <a id="Popover" onClick={this.toggle}>
-                    <img className="circle main-avatar" src={require(`./assets/${this.state.activeAvatar.src}`)} />
+                <a id="avatarPop" onClick={this.toggle}>
+                    <img className="circle main-avatar" alt={this.state.activeAvatar.label} src={require(`./assets/${this.state.activeAvatar.src}`)} />
                 </a>
 
-                <Popover placement="bottom" isOpen={this.state.popoverOpen} target="Popover" toggle={this.toggle}>
+                <Popover placement="bottom" isOpen={this.state.popoverOpen} target="avatarPop" toggle={this.toggle}>
                     <PopoverHeader className="pop-header">Choose your avatar</PopoverHeader>
                     <PopoverBody>
                         <ul className="popover-space">
                             {avatars.map(avatar => <img alt={avatar.label} key={avatar.id} src={require(`./assets/${avatar.src}`)}
                                                         className={classAvatarLoading}
-                                                        onClick={this.onSelectedAvatar.bind(this,avatar)} />)}
+                                                             onClick={this.onSelectedAvatar.bind(this,avatar)} />)}
                         </ul>
                     </PopoverBody>
                 </Popover>

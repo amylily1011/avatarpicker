@@ -3,7 +3,7 @@ import AvatarPicker from './AvatarPicker';
 import { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-Enzyme.Configure({ adapter: new Adapter() })
+Enzyme.Configure({ adapter: new Adapter() });
 
 describe('<AvatarPicker />', () => {
     const onClickToggle = jest.fn();

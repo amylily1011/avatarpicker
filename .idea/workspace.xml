@@ -4,6 +4,8 @@
     <list default="true" id="15178719-d871-454d-98db-8817537d58cb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvatarPicker.css" afterPath="$PROJECT_DIR$/src/AvatarPicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvatarPicker.js" afterPath="$PROJECT_DIR$/src/AvatarPicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AvatarPicker.test.js" afterPath="$PROJECT_DIR$/src/AvatarPicker.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,17 +20,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AvatarPicker.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AvatarPicker.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AvatarPicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="60" column="109" lean-forward="false" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
+            <state relative-caret-position="264">
+              <caret line="57" column="85" lean-forward="false" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1523999040000" expanded="true" signature="1611:2214" ph="..." />
-                <marker date="1523999040000" expanded="true" signature="1738:2187" ph="..." />
-                <marker date="1523999040000" expanded="true" signature="1793:2152" ph="..." />
-                <marker date="1523999040000" expanded="true" signature="1925:2120" ph="..." />
+                <marker date="1524054700000" expanded="true" signature="1614:2222" ph="..." />
+                <marker date="1524054700000" expanded="true" signature="1741:2195" ph="..." />
+                <marker date="1524054700000" expanded="true" signature="1796:2160" ph="..." />
+                <marker date="1524054700000" expanded="true" signature="1928:2128" ph="..." />
               </folding>
             </state>
           </provider>
@@ -44,23 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AvatarPicker.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AvatarPicker.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -68,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvatarPicker.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AvatarPicker.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AvatarPicker.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -121,6 +121,7 @@
       <find>pop</find>
       <find>bottom</find>
       <find>class</find>
+      <find>babel</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/node_modules/ajv-keywords</dir>
@@ -140,11 +141,11 @@
         <option value="$PROJECT_DIR$/src/avatar.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/Avatar.test.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/AvatarPicker.test.js" />
-        <option value="$PROJECT_DIR$/src/AvatarPicker.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/AvatarPicker.css" />
+        <option value="$PROJECT_DIR$/src/AvatarPicker.js" />
       </list>
     </option>
   </component>
@@ -160,9 +161,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="656" />
+    <option name="x" value="436" />
     <option name="y" value="23" />
-    <option name="width" value="784" />
+    <option name="width" value="1004" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -352,18 +353,18 @@
       <option name="presentableId" value="Default" />
       <updated>1523619210693</updated>
       <workItem from="1523619211881" duration="11543000" />
-      <workItem from="1523819457482" duration="27069000" />
+      <workItem from="1523819457482" duration="29550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38612000" />
+    <option name="totallyTimeSpent" value="41093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="656" y="23" width="784" height="877" extended-state="0" />
+    <frame x="436" y="23" width="1004" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33633634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20956257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -446,10 +447,10 @@
           <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1523999040000" expanded="true" signature="1611:2214" ph="..." />
-            <marker date="1523999040000" expanded="true" signature="1738:2187" ph="..." />
-            <marker date="1523999040000" expanded="true" signature="1793:2152" ph="..." />
-            <marker date="1523999040000" expanded="true" signature="1925:2120" ph="..." />
+            <marker date="1524054700000" expanded="true" signature="1614:2222" ph="..." />
+            <marker date="1524054700000" expanded="true" signature="1741:2195" ph="..." />
+            <marker date="1524054700000" expanded="true" signature="1796:2160" ph="..." />
+            <marker date="1524054700000" expanded="true" signature="1928:2128" ph="..." />
           </folding>
         </state>
       </provider>
@@ -598,14 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/avatar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -614,10 +607,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -632,20 +643,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AvatarPicker.test.js">
+    <entry file="file://$PROJECT_DIR$/src/AvatarPicker.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/AvatarPicker.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -654,23 +663,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AvatarPicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="60" column="109" lean-forward="false" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
+        <state relative-caret-position="264">
+          <caret line="57" column="85" lean-forward="false" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1523999040000" expanded="true" signature="1611:2214" ph="..." />
-            <marker date="1523999040000" expanded="true" signature="1738:2187" ph="..." />
-            <marker date="1523999040000" expanded="true" signature="1793:2152" ph="..." />
-            <marker date="1523999040000" expanded="true" signature="1925:2120" ph="..." />
+            <marker date="1524054700000" expanded="true" signature="1614:2222" ph="..." />
+            <marker date="1524054700000" expanded="true" signature="1741:2195" ph="..." />
+            <marker date="1524054700000" expanded="true" signature="1796:2160" ph="..." />
+            <marker date="1524054700000" expanded="true" signature="1928:2128" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AvatarPicker.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
